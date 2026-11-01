@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Fins on Feet — a concept for supporting local scuba businesses and growing the diving community.">
+    <title>Fins on Feet — Support Your Dive Community</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <a class="brand" href="#top" aria-label="Fins on Feet home">
+            <span class="brand-mark">FF</span>
+            <span>
+                <strong>FINS ON FEET</strong>
+                <small>SUPPORT THE PEOPLE WHO KEEP US DIVING</small>
+            </span>
+        </a>
+
+        <nav class="nav" id="siteNav">
+            <a href="#shops">Local Shops</a>
+            <a href="#how-it-works">How It Works</a>
+            <a href="#impact">Your Impact</a>
+            <a class="nav-cta" href="#donate">Donate</a>
+        </nav>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Open navigation">☰</button>
+    </header>
+
+    <main id="top">
+        <section class="hero">
+            <div class="hero-image"></div>
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <p class="eyebrow">LOCAL DIVING. LOCAL PEOPLE. LOCAL IMPACT.</p>
+                <h1>Keep Your<br><span>Local Dive Shop</span><br>in the Water.</h1>
+                <p class="hero-copy">
+                    A community-driven way to support the shops, instructors, and dive businesses
+                    that keep divers trained, equipped, and ready for the next adventure.
+                </p>
+                <div class="hero-actions">
+                    <a class="button button-primary" href="#donate">Support a Shop <span>→</span></a>
+                    <a class="button button-ghost" href="#shops">Explore Local Shops</a>
+                </div>
+            </div>
+            <div class="hero-note">
+                <span>01</span>
+                <span>COMMUNITY FIRST</span>
+            </div>
+        </section>
+
+        <section class="intro section">
+            <div class="section-label">WHY DIVE LOCAL</div>
+            <div class="intro-grid">
+                <h2>Scuba is more than<br><em>getting in the water.</em></h2>
+                <div>
+                    <p>
+                        Local dive shops create the infrastructure behind the sport: training,
+                        equipment, repairs, rentals, trips, mentorship, and community.
+                    </p>
+                    <p>
+                        Fins on Feet is a website concept built around one simple idea:
+                        <strong>make it easier for divers to support the people who make diving possible.</strong>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="shops section" id="shops">
+            <div class="section-heading">
+                <div>
+                    <div class="section-label">CENTRAL VIRGINIA / PILOT AREA</div>
+                    <h2>Meet the <span>local dive community.</span></h2>
+                </div>
+                <p>Prototype listings for the Richmond-area market. Shop participation and payment routing would be connected before launch.</p>
+            </div>
+
+            <div class="shop-grid">
+                <article class="shop-card featured">
+                    <div class="shop-number">01</div>
+                    <div class="shop-content">
+                        <p class="shop-type">RICHMOND · TRAINING + RETAIL</p>
+                        <h3>The Dive Shop</h3>
+                        <p>Scuba training, equipment, rentals, service, and dive trips serving Richmond-area divers.</p>
+                        <div class="shop-tags">
+                            <span>Training</span><span>Gear</span><span>Trips</span>
+                        </div>
+                        <button class="text-button donate-shop" data-shop="The Dive Shop">Support this shop <span>↗</span></button>
+                    </div>
+                </article>
+
+                <article class="shop-card">
+                    <div class="shop-number">02</div>
+                    <div class="shop-content">
+                        <p class="shop-type">RICHMOND · SMALL-GROUP TRAINING</p>
+                        <h3>Get Down Scuba</h3>
+                        <p>Private and small-class scuba instruction, from introductory experiences through professional training.</p>
+                        <div class="shop-tags">
+                            <span>Instruction</span><span>Small Classes</span><span>Certification</span>
+                        </div>
+                        <button class="text-button donate-shop" data-shop="Get Down Scuba">Support this shop <span>↗</span></button>
+                    </div>
+                </article>
+
+                <article class="shop-card">
+                    <div class="shop-number">03</div>
+                    <div class="shop-content">
+                        <p class="shop-type">COLONIAL HEIGHTS · FAMILY-OWNED</p>
+                        <h3>Tri-City SCUBA</h3>
+                        <p>Family-operated training, gear, service, and dive trips serving the Richmond / Tri-Cities area.</p>
+                        <div class="shop-tags">
+                            <span>Training</span><span>Trips</span><span>Local</span>
+                        </div>
+                        <button class="text-button donate-shop" data-shop="Tri-City SCUBA">Support this shop <span>↗</span></button>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="how section" id="how-it-works">
+            <div class="section-label">HOW IT WORKS</div>
+            <div class="steps">
+                <div class="step">
+                    <span>01</span>
+                    <h3>Choose a shop</h3>
+                    <p>Find a participating local dive business you want to support.</p>
+                </div>
+                <div class="step">
+                    <span>02</span>
+                    <h3>Choose your amount</h3>
+                    <p>Make a one-time contribution or, eventually, support shops on a recurring basis.</p>
+                </div>
+                <div class="step">
+                    <span>03</span>
+                    <h3>Keep diving local</h3>
+                    <p>Your support helps strengthen the local businesses behind training, gear, and community.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="donate section" id="donate">
+            <div class="donate-panel">
+                <div>
+                    <div class="section-label">MAKE AN IMPACT</div>
+                    <h2>Put your support<br><span>where your fins are.</span></h2>
+                    <p>
+                        This is a prototype donation experience. Select a local shop and an amount
+                        to preview the flow. A production version would connect to a secure payment
+                        processor and verified recipient accounts.
+                    </p>
+                </div>
+
+                <form class="donation-form" id="donationForm">
+                    <label for="shop">Support</label>
+                    <select id="shop" name="shop">
+                        <option>The Dive Shop</option>
+                        <option>Get Down Scuba</option>
+                        <option>Tri-City SCUBA</option>
+                    </select>
+
+                    <label>Contribution</label>
+                    <div class="amounts">
+                        <button type="button" class="amount active" data-amount="25">$25</button>
+                        <button type="button" class="amount" data-amount="50">$50</button>
+                        <button type="button" class="amount" data-amount="100">$100</button>
+                        <button type="button" class="amount" data-amount="250">$250</button>
+                    </div>
+
+                    <label for="customAmount">Custom amount</label>
+                    <div class="custom-amount">
+                        <span>$</span>
+                        <input id="customAmount" type="number" min="1" placeholder="Enter amount">
+                    </div>
+
+                    <button class="button button-primary full" type="submit">Continue to Support <span>→</span></button>
+                    <p class="form-note">Prototype only — no payment is processed.</p>
+                </form>
+            </div>
+        </section>
+
+        <section class="impact section" id="impact">
+            <div class="impact-copy">
+                <div class="section-label">THE BIGGER IDEA</div>
+                <h2>Support the businesses<br>that support the <span>sport.</span></h2>
+                <p>
+                    A healthy local dive community needs more than divers. It needs instructors,
+                    repair technicians, gear specialists, trip leaders, storefronts, and people
+                    willing to keep the doors open.
+                </p>
+            </div>
+            <div class="impact-stat">
+                <strong>LOCAL</strong>
+                <span>DIVING<br>STARTS<br>HERE.</span>
+            </div>
+        </section>
+
+        <section class="roasters section">
+            <div class="roasters-card">
+                <div>
+                    <p class="section-label">ANOTHER WIY CONCEPT</p>
+                    <h2>From the water<br>to the <span>coffee shop.</span></h2>
+                    <p>Explore Redeemed Roasters — another website concept built by WIY.</p>
+                </div>
+                <a class="button button-ghost" href="https://66vmn7gwnf-star.github.io/Redeemed-Roasters/" target="_blank" rel="noopener">Visit Redeemed Roasters <span>↗</span></a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div>
+            <strong>DIVE LOCAL</strong>
+            <p>A WIY concept for stronger local dive communities.</p>
+        </div>
+        <div class="footer-links">
+            <a href="#shops">Local Shops</a>
+            <a href="#donate">Donate</a>
+            <a href="https://66vmn7gwnf-star.github.io/Redeemed-Roasters/" target="_blank" rel="noopener">Redeemed Roasters ↗</a>
+        </div>
+        <p class="copyright">© 2026 Dive Local · Concept website by WIY</p>
+    </footer>
+
+    <div class="modal" id="donationModal" aria-hidden="true">
+        <div class="modal-card">
+            <button class="modal-close" id="modalClose" aria-label="Close">×</button>
+            <p class="section-label">PROTOTYPE CONFIRMATION</p>
+            <h2>Support <span id="selectedShop">The Dive Shop</span></h2>
+            <p>Your contribution selection is ready. In the production version, this step would securely connect to the payment processor and the shop's verified recipient account.</p>
+            <div class="modal-selection">
+                <span>Contribution</span>
+                <strong id="selectedAmount">$25</strong>
+            </div>
+            <button class="button button-primary full" id="modalDone">Back to Dive Local <span>→</span></button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
